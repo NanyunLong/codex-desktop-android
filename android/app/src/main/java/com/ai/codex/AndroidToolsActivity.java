@@ -53,6 +53,7 @@ public final class AndroidToolsActivity extends androidx.appcompat.app.AppCompat
         });
         text("CC Switch 配置目录", 18);
         text("在 CC Switch 中选择“连接配置目录”，从系统文件选择器进入“Codex → .codex”并授权。切换前请安全退出桌面客户端，保存后重新启动；目录访问不会启动 Linux 桌面。", 16);
+        button("API 服务商配置（内置，无需另装 CC Switch）", () -> startActivity(new Intent(this, ProviderSettingsActivity.class)));
         text("你可以让 Codex 查找消息或操作应用。使用相关功能时，Android 会请求相应权限。", 17);
         text("按你的要求读取的消息和截图会在对话中发送给模型。你可以随时在 Android 设置中撤销权限。", 16);
         button("手机操控（读屏、操作与 Root 后台屏）", () -> startActivity(new Intent(this, com.ai.codex.phone.PhoneSettingsActivity.class)));

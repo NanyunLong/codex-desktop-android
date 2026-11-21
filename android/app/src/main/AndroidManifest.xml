@@ -42,6 +42,7 @@
         <activity android:name="com.ai.codex.DeviceCapabilitiesActivity" android:exported="false" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name="com.ai.codex.CodexDeviceQuestionActivity" android:exported="false" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name="com.ai.codex.AndroidToolsActivity" android:exported="true" android:label="Codex Android 工具" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name="com.ai.codex.ProviderSettingsActivity" android:exported="false" android:label="API 服务商配置" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name="com.ai.codex.CodexAndroidPermissionActivity" android:exported="false" android:label="Codex Android 权限" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <service android:name="com.ai.codex.phone.a11y.PhoneA11yService" android:exported="true" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:label="Codex Android 控制">
             <intent-filter><action android:name="android.accessibilityservice.AccessibilityService" /></intent-filter>
